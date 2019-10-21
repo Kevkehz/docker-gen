@@ -15,7 +15,7 @@ type Config struct {
 	Wait             *Wait
 	NotifyCmd        string
 	NotifyOutput     bool
-	NotifyContainers map[string]docker.Signal
+	NotifyContainers map[string]int
 	OnlyExposed      bool
 	OnlyPublished    bool
 	IncludeStopped   bool
